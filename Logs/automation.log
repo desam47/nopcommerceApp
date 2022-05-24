@@ -1,6 +1,8 @@
-05/23/2022 04:38:25 PM: INFO: ****************Test_002_DDT_Login*********************
-05/23/2022 04:38:25 PM: INFO: *********************** Verifying Login DDT test *******************
-05/23/2022 04:38:35 PM: INFO: *********************** Passed *******************
-05/23/2022 04:38:53 PM: INFO: *******Login DDT test passed******
-05/23/2022 04:38:53 PM: INFO: ***********End of Login DDT Test*************
-05/23/2022 04:38:53 PM: INFO: ***********Completed TC_LoginDDT_002*************
+05/23/2022 11:34:41 PM: INFO: ********** Test_003_AddCustomer **********
+05/23/2022 11:34:45 PM: INFO: ********** Login Successful **********
+05/23/2022 11:34:45 PM: INFO: ********** Starting Add Customer Test **********
+05/23/2022 11:34:49 PM: INFO: ********** Providing Customer info **********
+05/23/2022 11:34:55 PM: INFO: ********** Saving Customer info **********
+05/23/2022 11:34:55 PM: INFO: ********** Add Customer Validation Started **********
+05/23/2022 11:34:56 PM: INFO: ********** Add Customer test Passed **********
+05/23/2022 11:34:56 PM: INFO: **********  Ending Test_003 Add Customer Test ********** 

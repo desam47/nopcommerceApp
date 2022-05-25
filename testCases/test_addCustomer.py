@@ -1,6 +1,8 @@
 import random
 import string
 
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage import AddcustomerPage
 from utilities.readProperties import ReadConfig
@@ -14,6 +16,7 @@ class Test_003_AddCustomer:
     password = ReadConfig.getPassword(self='')
     logger = LogGen.loggen()
 
+    @pytest.mark.sanity
     def test_addCustomer(self, setup):
         self.logger.info("********** Test_003_AddCustomer **********")
         self.driver = setup

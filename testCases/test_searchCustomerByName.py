@@ -15,6 +15,7 @@ class Test_004_SearchCustomerByName:
     password = ReadConfig.getPassword(self='')
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_addNewCustomer(self, setup):
         self.logger.info("********** Search Customer By Name test started **********")
         self.driver = setup

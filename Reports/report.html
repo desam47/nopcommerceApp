@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 25-May-2022 at 12:13:53 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 25-May-2022 at 16:06:15 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +265,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester</td>
         <td>Desam</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 0.14 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 23.00 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,12 +277,31 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="error results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">test_login_ddt.py::collect</td>
-          <td class="col-duration"></td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_addCustomer.py::Test_003_AddCustomer::test_addCustomer</td>
+          <td class="col-duration">17.27</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">ImportError while importing test module &#x27;/home/dips/pythonProject/nopcommerceApp/testCases/test_login_ddt.py&#x27;.<br/>Hint: make sure your test modules/packages have valid Python names.<br/>Traceback:<br/>/usr/lib/python3.10/importlib/__init__.py:126: in import_module<br/>    return _bootstrap._gcd_import(name[level:], package, level)<br/>testCases/test_login_ddt.py:7: in &lt;module&gt;<br/>    from utilities import ExcelUtils<br/>utilities/ExcelUtils.py:1: in &lt;module&gt;<br/>    import openpyxl<br/><span class="error">E   ModuleNotFoundError: No module named &#x27;openpyxl&#x27;</span><br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching Chrome browser.......
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_addCustomer.py:21 ********** Test_003_AddCustomer **********
+INFO     root:test_addCustomer.py:30 ********** Login Successful **********
+INFO     root:test_addCustomer.py:32 ********** Starting Add Customer Test **********
+INFO     root:test_addCustomer.py:40 ********** Providing Customer info **********
+INFO     root:test_addCustomer.py:55 ********** Saving Customer info **********
+INFO     root:test_addCustomer.py:57 ********** Add Customer Validation Started **********
+INFO     root:test_addCustomer.py:63 ********** Add Customer test Passed **********
+INFO     root:test_addCustomer.py:70 **********  Ending Test_003 Add Customer Test **********<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_login.py::Test_001_Login::test_login</td>
+          <td class="col-duration">5.57</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching Chrome browser.......
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_login.py:36 *********************** Verifying Login test *******************
+INFO     root:test_login.py:46 *********************** Login test is passed *******************<br/></div></td></tr></tbody></table></body></html>

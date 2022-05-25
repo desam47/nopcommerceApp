@@ -1,0 +1,10 @@
+05/25/2022 04:05:53 PM: INFO: ********** Test_003_AddCustomer **********
+05/25/2022 04:05:58 PM: INFO: ********** Login Successful **********
+05/25/2022 04:05:58 PM: INFO: ********** Starting Add Customer Test **********
+05/25/2022 04:06:03 PM: INFO: ********** Providing Customer info **********
+05/25/2022 04:06:09 PM: INFO: ********** Saving Customer info **********
+05/25/2022 04:06:09 PM: INFO: ********** Add Customer Validation Started **********
+05/25/2022 04:06:09 PM: INFO: ********** Add Customer test Passed **********
+05/25/2022 04:06:09 PM: INFO: **********  Ending Test_003 Add Customer Test ********** 
+05/25/2022 04:06:10 PM: INFO: *********************** Verifying Login test *******************
+05/25/2022 04:06:15 PM: INFO: *********************** Login test is passed *******************

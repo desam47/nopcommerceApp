@@ -47,7 +47,7 @@ class AddcustomerPage:
     def clickOnCustomerMenu(self):
         self.driver.find_element(By.XPATH, self.lnkCustomers_menu_xpath).click()
 
-    def clickOnCustomerManuItem(self):
+    def clickOnCustomerMenuItem(self):
         self.driver.find_element(By.XPATH, self.lnkCustomers_menuitem_xpath).click()
 
     def clickOnAddnew(self):

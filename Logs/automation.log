@@ -1,8 +1,4 @@
-05/23/2022 11:34:41 PM: INFO: ********** Test_003_AddCustomer **********
-05/23/2022 11:34:45 PM: INFO: ********** Login Successful **********
-05/23/2022 11:34:45 PM: INFO: ********** Starting Add Customer Test **********
-05/23/2022 11:34:49 PM: INFO: ********** Providing Customer info **********
-05/23/2022 11:34:55 PM: INFO: ********** Saving Customer info **********
-05/23/2022 11:34:55 PM: INFO: ********** Add Customer Validation Started **********
-05/23/2022 11:34:56 PM: INFO: ********** Add Customer test Passed **********
-05/23/2022 11:34:56 PM: INFO: **********  Ending Test_003 Add Customer Test ********** 
+05/24/2022 08:08:39 PM: INFO: ********** Search Customer By Email test started **********
+05/24/2022 08:08:43 PM: INFO: ********** Login Successful **********
+05/24/2022 08:08:44 PM: INFO: ********** Search Customer By Email **********
+05/24/2022 08:08:48 PM: INFO: ********** Search Customer By Email test Completed **********

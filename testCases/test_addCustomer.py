@@ -1,12 +1,11 @@
 import random
 import string
 
-import pytest
-
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage import AddcustomerPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+from selenium.webdriver.common.by import By
 
 
 class Test_003_AddCustomer:
@@ -54,7 +53,7 @@ class Test_003_AddCustomer:
 
         self.logger.info("********** Add Customer Validation Started **********")
 
-        self.msg = self.driver.find_element_by_tag_name("body").text
+        self.msg = self.driver.find_element(By.TAG_NAME, "body").text
 
         if 'customer has been added successfully.' in self.msg:
             assert True == True

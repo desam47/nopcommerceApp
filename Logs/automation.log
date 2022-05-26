@@ -1,10 +1,10 @@
-05/25/2022 10:32:39 PM: INFO: ********** Test_003_AddCustomer **********
-05/25/2022 10:32:43 PM: INFO: ********** Login Successful **********
-05/25/2022 10:32:43 PM: INFO: ********** Starting Add Customer Test **********
-05/25/2022 10:32:45 PM: INFO: ********** Providing Customer info **********
-05/25/2022 10:32:51 PM: INFO: ********** Saving Customer info **********
-05/25/2022 10:32:51 PM: INFO: ********** Add Customer Validation Started **********
-05/25/2022 10:32:51 PM: INFO: ********** Add Customer test Passed **********
-05/25/2022 10:32:51 PM: INFO: **********  Ending Test_003 Add Customer Test ********** 
-05/25/2022 10:32:52 PM: INFO: *********************** Verifying Login test *******************
-05/25/2022 10:32:57 PM: INFO: *********************** Login test is passed *******************
+05/25/2022 10:46:03 PM: INFO: ********** Test_003_AddCustomer **********
+05/25/2022 10:46:07 PM: INFO: ********** Login Successful **********
+05/25/2022 10:46:07 PM: INFO: ********** Starting Add Customer Test **********
+05/25/2022 10:46:11 PM: INFO: ********** Providing Customer info **********
+05/25/2022 10:46:16 PM: INFO: ********** Saving Customer info **********
+05/25/2022 10:46:16 PM: INFO: ********** Add Customer Validation Started **********
+05/25/2022 10:46:17 PM: INFO: ********** Add Customer test Passed **********
+05/25/2022 10:46:17 PM: INFO: **********  Ending Test_003 Add Customer Test ********** 
+05/25/2022 10:46:18 PM: INFO: *********************** Verifying Login test *******************
+05/25/2022 10:46:22 PM: INFO: *********************** Login test is passed *******************

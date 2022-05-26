@@ -1,4 +1,4 @@
-#!/home/dips/pythonProject/nopcommerceApp/venv/bin/python3.10
+#! /home/dips/pythonProject/nopcommerceApp/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

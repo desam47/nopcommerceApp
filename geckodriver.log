@@ -346,3 +346,9 @@ console.log: "RemoteSettingsWorker error: Error: Can't import when we've started
 
 JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
 JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653592846259	geckodriver	INFO	Listening on 127.0.0.1:53939
+1653592846793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55749" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepa1ejq"
+Error: no DISPLAY environment variable specified
+1653592847005	geckodriver	INFO	Listening on 127.0.0.1:36115
+1653592847516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60151" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebJz5fh"
+Error: no DISPLAY environment variable specified

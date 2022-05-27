@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver import FirefoxOptions
 import pytest
 
 
@@ -9,7 +10,9 @@ def setup(browser):
         print("Launching Chrome browser.......")
 
     elif browser == 'firefox':
-        driver = webdriver.Firefox()
+        opts = FirefoxOptions()
+        opts.add_argument("--headless")
+        driver = webdriver.Firefox(options=opts)
         print("Launching Firefox browser.......")
 
     else:

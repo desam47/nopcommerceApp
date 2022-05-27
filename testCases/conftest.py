@@ -24,8 +24,12 @@ def setup(browser):
         driver = webdriver.Chrome()
         print("Launching default browser.......")
 
-    return driver
-
+#    return driver
+#    browser.cls.driver = driver
+    driver.maximize_window()
+    driver.implicitly_wait(10)
+    yield driver
+    driver.quit()
 
 def pytest_addoption(parser):  # This will get the value from CLI /hooks
     parser.addoption("--browser")

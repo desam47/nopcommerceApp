@@ -7,17 +7,17 @@ import pytest
 @pytest.fixture()
 def setup(browser):
     if browser == 'chrome':
-        #driver = webdriver.Chrome()
-        opts = ChromeOptions()
+        driver = webdriver.Chrome()
+        #opts = ChromeOptions()
         #opts.add_argument("--headless")
-        driver = webdriver.Chrome(options=opts)
+        #driver = webdriver.Chrome(options=opts)
         print("Launching Chrome browser.......")
 
     elif browser == 'firefox':
-        #driver = webdriver.Firefox()
-        opts = FirefoxOptions()
+        driver = webdriver.Firefox()
+        #opts = FirefoxOptions()
         #opts.add_argument("--headless")
-        driver = webdriver.Firefox(options=opts)
+        #driver = webdriver.Firefox(options=opts)
         print("Launching Firefox browser.......")
 
     else:
